@@ -21,6 +21,8 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "Steve's Text Editor",
+
+        
       }),
       // Injects our custom service worker
       new InjectManifest({
@@ -52,7 +54,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: [MiniCssExtractPlugin.loader, "css-loader"],
+          use: ['style-loader', "css-loader"],
         },
         {
           test: /\.m?js$/,
