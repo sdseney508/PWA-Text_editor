@@ -27,6 +27,14 @@ https://steves-text-editor.herokuapp.com/
 
 It can be run purely online or installed and run offline by clikcing the install button at the top left hand corner of the screen.  Once installled, it will update the online database on every reconnection.
 
+For a local install and run, install all of the files and folders then run:    
+```
+npm i
+npm run build
+npm run start
+```    
+Then launch a browser and open it to 'localhost:3000'
+
  ## Usage
  None
  ## Credits
