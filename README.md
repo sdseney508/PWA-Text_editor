@@ -1,5 +1,7 @@
 # PWA-Text_editor
-An online text editor that can beinstalled and run offline using a service worker.  Powered by Node and Express.
+An online text editor that can be installed and run offline using a service worker.  Powered by Node and Express.
+![image](https://user-images.githubusercontent.com/62141103/168429964-08c223a9-72f8-4017-87fd-68a8640eee75.png)
+
 
 ## Table of Contents
  -[Installation](#installation)
